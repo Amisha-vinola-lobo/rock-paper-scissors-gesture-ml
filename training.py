@@ -22,7 +22,7 @@ val_ds_raw = tf.keras.utils.image_dataset_from_directory(
     seed=123
 )
 
-# ✅ Get class names here and store them
+#  Get class names here and store them
 class_names = train_ds_raw.class_names
 print("Class names:", class_names)
 
@@ -44,4 +44,4 @@ history = model.fit(train_ds,
 model.save('model10_finetuned.h5')
 print("Model fine-tuned and saved as model10_finetuned.h5")
 
-# ❌ Do NOT call train_ds.class_names here
+#  Do NOT call train_ds.class_names here
