@@ -6,7 +6,13 @@ Rock-paper-scissors gesture recognition game using Python with training and test
 A Python mini-project that recognizes hand gestures for rock, paper, and scissors.  
 It includes three main modules: training, testing, and a simple game interface.
 
-## Features
+## 🚀 Features
 - **Training (`train.py`)**: Add gesture images (minimum ~100 per class: rock, paper, scissors). Train the ML model with multiple epochs.
 - **Testing (`test.py`)**: Check if the trained model correctly recognizes gestures.
-- **Game (`main.py`)**: Play rock-paper-scissors against the computer. Choose number of
+- **Game (`main.py`)**: Play rock-paper-scissors against the computer. Choose number of rounds, show your gesture, and let the model recognize it.
+
+## 🛠️ Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/rock-paper-scissors-gesture-ml.git
+   cd rock-paper-scissors-gesture-ml
